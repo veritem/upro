@@ -8,6 +8,7 @@ specifiers:
   eslint-config-next: 12.0.3
   husky: ^7.0.0
   next: 12.0.3
+  next-themes: ^0.0.15
   postcss: ^8.3.11
   prettier: ^2.4.1
   pretty-quick: ^3.1.1
@@ -19,6 +20,7 @@ specifiers:
 
 dependencies:
   next: 12.0.3_react-dom@17.0.2+react@17.0.2
+  next-themes: 0.0.15_72b2f1fb664d51f286fb64a58e104b48
   prettier: 2.4.1
   pretty-quick: 3.1.1_prettier@2.4.1
   react: 17.0.2
@@ -2328,6 +2330,18 @@ packages:
   /natural-compare/1.4.0:
     resolution: {integrity: sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=}
     dev: true
+
+  /next-themes/0.0.15_72b2f1fb664d51f286fb64a58e104b48:
+    resolution: {integrity: sha512-LTmtqYi03c4gMTJmWwVK9XkHL7h0/+XrtR970Ujvtu3s0kZNeJN24aJsi4rkZOI8i19+qq6f8j+8Duwy5jqcrQ==}
+    peerDependencies:
+      next: '*'
+      react: '*'
+      react-dom: '*'
+    dependencies:
+      next: 12.0.3_react-dom@17.0.2+react@17.0.2
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+    dev: false
 
   /next/12.0.3_react-dom@17.0.2+react@17.0.2:
     resolution: {integrity: sha512-GGdhTBcerdMZbitrO67IVetmB+AHa2X69xrkXKClUT8SRu8pEVto/2QMSnfI+uYc5czCUWPsVtVY3aMoMRMaCA==}
