@@ -1,28 +1,30 @@
 {
-  "name": "fronted",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc --loglevel=error"
-  },
-  "dependencies": {
-    "next": "12.0.3",
-    "prettier": "^2.4.1",
-    "pretty-quick": "^3.1.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  },
-  "devDependencies": {
-    "@types/node": "16.11.7",
-    "@types/react": "17.0.34",
-    "autoprefixer": "^10.4.0",
-    "eslint": "7.32.0",
-    "eslint-config-next": "12.0.3",
-    "postcss": "^8.3.11",
-    "tailwindcss": "^2.2.19",
-    "typescript": "4.4.4"
-  }
+    "name": "fronted",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc --loglevel=error",
+        "prepare": "husky install"
+    },
+    "dependencies": {
+        "next": "12.0.3",
+        "prettier": "^2.4.1",
+        "pretty-quick": "^3.1.1",
+        "react": "17.0.2",
+        "react-dom": "17.0.2"
+    },
+    "devDependencies": {
+        "@types/node": "16.11.7",
+        "@types/react": "17.0.34",
+        "autoprefixer": "^10.4.0",
+        "eslint": "7.32.0",
+        "eslint-config-next": "12.0.3",
+        "postcss": "^8.3.11",
+        "tailwindcss": "^2.2.19",
+        "typescript": "4.4.4",
+        "husky": "^7.0.0"
+    }
 }
