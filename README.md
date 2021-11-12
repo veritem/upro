@@ -1,3 +1,13 @@
-## Fronted starter template for all my future project
+##### fronted
 
-Current: setup dark mode with `next-themes`
+Starter for next generation fronted applications 
+
+
+##### Includes the following 
+
+- Next.js
+- Typescript 
+- React query
+- Tailwindcss
+- Eslint
+- Prettier
