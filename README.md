@@ -1,4 +1,4 @@
-#### upro
+## upro
 
 Starter for next generation fronted applications
 
@@ -7,7 +7,7 @@ Starter for next generation fronted applications
 -   [Next.js](https://github.com/vercel/next.js/) as fronted framework
 -   [React query](https://github.com/tannerlinsley/react-query)
 -   [Tailwindcss](https://github.com/tailwindlabs/tailwindcss) for styling
--   Eslint & Prettier for formatting and linting 
+-   Eslint & Prettier for formatting and linting
 -   Typescript ofcourse
 
 #### Coming soon
