@@ -1,6 +1,6 @@
-import {NextPage} from 'next'
+import { NextPage } from 'next'
 import Head from 'next/head'
-import {Fragment} from 'react'
+import { Fragment } from 'react'
 import Link from 'next/link'
 
 const About: NextPage = () => {
