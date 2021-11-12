@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@types/js-cookie': ^3.0.0
   '@types/node': 16.11.7
   '@types/react': 17.0.34
   autoprefixer: ^10.4.0
@@ -30,6 +31,7 @@ dependencies:
   react-query: 3.32.1_react-dom@17.0.2+react@17.0.2
 
 devDependencies:
+  '@types/js-cookie': 3.0.0
   '@types/node': 16.11.7
   '@types/react': 17.0.34
   autoprefixer: 10.4.0_postcss@8.3.11
@@ -328,6 +330,10 @@ packages:
 
   /@rushstack/eslint-patch/1.1.0:
     resolution: {integrity: sha512-JLo+Y592QzIE+q7Dl2pMUtt4q8SKYI5jDrZxrozEQxnGVOyYE+GWK9eLkwTaeN9DDctlaRAQ3TBmzZ1qdLE30A==}
+    dev: true
+
+  /@types/js-cookie/3.0.0:
+    resolution: {integrity: sha512-GDVwSzwBm4OdQajFCit2UMxskZVcOhs/hYeOvzVW1R+iW6ZOVIBgD+RSrYCtPT0pNBnwNgRaoPPKfoXcwDo+hg==}
     dev: true
 
   /@types/json5/0.0.29:

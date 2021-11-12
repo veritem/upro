@@ -20,6 +20,7 @@
         "react-query": "^3.32.1"
     },
     "devDependencies": {
+        "@types/js-cookie": "^3.0.0",
         "@types/node": "16.11.7",
         "@types/react": "17.0.34",
         "autoprefixer": "^10.4.0",
