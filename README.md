@@ -1,21 +1,20 @@
-#### fronted
+#### upro
 
 Starter for next generation fronted applications
 
 #### Features
 
 -   [Next.js](https://github.com/vercel/next.js/) as fronted framework
--   Typescrip ofcourse
 -   [React query](https://github.com/tannerlinsley/react-query)
--   Tailwindcss for styling 
--   Eslint & Prettier 
-
+-   [Tailwindcss](https://github.com/tailwindlabs/tailwindcss) for styling
+-   Eslint & Prettier for formatting and linting 
+-   Typescript ofcourse
 
 #### Coming soon
 
-- [ ] I18 setup
-- [ ] cypress setup
-- [ ] .... 
+-   [ ] I18 setup
+-   [ ] cypress setup
+-   [ ] ....
 
 #### Contribute
 
