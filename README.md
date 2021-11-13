@@ -18,4 +18,4 @@ Starter for next generation fronted applications
 
 #### Contribute
 
-Have any idea in mind about this project consider firing an issue or a PR
+Have an idea in mind about this project consider firing an issue or a PR
