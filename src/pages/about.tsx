@@ -1,8 +1,8 @@
+import Nav from '@/components/Nav'
 import { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
 import { Fragment } from 'react'
-import Nav from "../components/Nav"
 
 const About: NextPage = () => {
     return (
