@@ -7,7 +7,9 @@
         "start": "next start",
         "lint": "next lint",
         "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc --loglevel=error",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "storybook": "start-storybook -p 6006",
+        "storybook:build": "build-storybook"
     },
     "dependencies": {
         "js-cookie": "^3.0.1",
@@ -17,9 +19,14 @@
         "pretty-quick": "^3.1.1",
         "react": "17.0.2",
         "react-dom": "17.0.2",
+        "react-feather": "^2.0.9",
         "react-query": "^3.32.1"
     },
     "devDependencies": {
+        "@storybook/addon-actions": "^6.3.12",
+        "@storybook/addon-essentials": "^6.3.12",
+        "@storybook/addon-links": "^6.3.12",
+        "@storybook/react": "^6.3.12",
         "@types/js-cookie": "^3.0.0",
         "@types/node": "16.11.7",
         "@types/react": "17.0.34",

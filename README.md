@@ -14,8 +14,6 @@ Starter for next generation fronted applications
 
 -   [ ] I18 setup
 -   [ ] cypress for testing setup
--   [ ] Dark mode setup
--   [ ] Icons setup
 -   [ ] ....
 
 #### Contribute
