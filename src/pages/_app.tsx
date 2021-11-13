@@ -6,7 +6,7 @@ import { ReactQueryDevtools } from 'react-query/devtools'
 
 const queryclient = new QueryClient()
 
-function MyApp ({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps) {
     return (
         <ThemeProvider attribute="class">
             <QueryClientProvider client={queryclient}>

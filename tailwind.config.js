@@ -6,8 +6,8 @@ module.exports = {
             './src/components/**/*.{js,ts,jsx,tsx}'
         ],
         options: {
-            safelist: ['dark'], //specific classes
-        },
+            safelist: ['dark'] //specific classes
+        }
     },
     darkMode: 'class',
     theme: {
