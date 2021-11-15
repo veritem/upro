@@ -31,9 +31,7 @@ pnpm install
 pnpm dev
 ```
 
-- Rename project name in `package.json` 
-
-
+-   Rename project name in `package.json`
 
 #### Contribute
 
