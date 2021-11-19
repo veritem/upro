@@ -14,7 +14,6 @@ Starter for next generation fronted applications
 #### Coming soon
 
 -   [ ] I18 setup
--   [ ] cypress for testing setup
 -   [ ] ....
 
 #### Getting started
