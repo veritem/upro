@@ -15,7 +15,7 @@ const About: NextPage = () => {
             <section className="font-primary text-center grid place-content-center h-screen w-screen">
                 <Nav />
                 <p className="py-2">
-                    Web fronted starter to swiftly build web apps
+                    Web fronted starter to help you swiftly build web apps
                 </p>
 
                 <ul className="text-left py-4 list-decimal px-10">
