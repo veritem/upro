@@ -8,33 +8,34 @@
         "lint": "next lint",
         "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc --loglevel=error",
         "prepare": "husky install",
-        "storybook": "start-storybook -p 6006",
-        "storybook:build": "build-storybook"
+        "cy:install": "cypress install",
+        "cy:run": "cypress run --headless --browser chrome",
+        "cy:open": "cypress open",
+        "test": "npm run cy:run",
+        "test:e2e:ci": "start-server-and-test dev http://localhost:3000 cy:run"
     },
     "dependencies": {
         "js-cookie": "^3.0.1",
         "next": "12.0.3",
         "next-themes": "^0.0.15",
         "prettier": "^2.4.1",
-        "pretty-quick": "^3.1.1",
         "react": "17.0.2",
         "react-dom": "17.0.2",
         "react-feather": "^2.0.9",
         "react-query": "^3.32.1"
     },
     "devDependencies": {
-        "@storybook/addon-actions": "^6.3.12",
-        "@storybook/addon-essentials": "^6.3.12",
-        "@storybook/addon-links": "^6.3.12",
-        "@storybook/react": "^6.3.12",
         "@types/js-cookie": "^3.0.0",
         "@types/node": "16.11.7",
         "@types/react": "17.0.34",
         "autoprefixer": "^10.4.0",
+        "cypress": "^9.0.0",
         "eslint": "7.32.0",
         "eslint-config-next": "12.0.3",
         "husky": "^7.0.0",
         "postcss": "^8.3.11",
+        "pretty-quick": "^3.1.1",
+        "start-server-and-test": "^1.14.0",
         "tailwindcss": "^2.2.19",
         "typescript": "4.4.4"
     }
