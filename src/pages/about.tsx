@@ -8,17 +8,11 @@ import { useRouter } from 'next/router'
 import { Fragment } from 'react'
 import { GitHub } from 'react-feather'
 
-
-
 const About: NextPage = () => {
-
     const router = useRouter()
     const { locale } = router
 
-
     const t = locale === 'en' ? en : fr
-
-
 
     return (
         <Fragment>
@@ -28,9 +22,7 @@ const About: NextPage = () => {
 
             <section className="font-primary text-center grid place-content-center h-screen w-screen">
                 <Nav />
-                <p className="py-2">
-                    {t.slogan}
-                </p>
+                <p className="py-2">{t.slogan}</p>
 
                 <ul className="text-left py-4 list-decimal px-10">
                     <li>Next.js</li>

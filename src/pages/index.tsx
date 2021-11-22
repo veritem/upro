@@ -15,10 +15,7 @@ const Home: NextPage = () => {
     const router = useRouter()
     const { locale } = router
 
-
     const t = locale === 'en' ? en : fr
-
-
 
     return (
         <Fragment>
