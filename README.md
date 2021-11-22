@@ -9,12 +9,8 @@ Starter for next generation fronted applications
 -   [Tailwindcss](https://github.com/tailwindlabs/tailwindcss) for styling
 -   [Cypress](https://www.cypress.io/) for testing
 -   [Typescript](https://www.typescriptlang.org/) for writing mentainable code
+-   I18n support
 -   Eslint & Prettier for formatting and linting
-
-#### Coming soon
-
--   [ ] I18 setup
--   [ ] ....
 
 #### Getting started
 

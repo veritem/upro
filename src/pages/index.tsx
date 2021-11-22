@@ -1,13 +1,25 @@
 import Nav from '@/components/Nav'
+import en from '@/locales/en'
+import fr from '@/locales/fr'
 import type { NextPage } from 'next'
 import { useTheme } from 'next-themes'
 import Head from 'next/head'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import { Fragment } from 'react'
 import { Moon, Sun } from 'react-feather'
 
 const Home: NextPage = () => {
     const { theme, setTheme } = useTheme()
+
+    const router = useRouter()
+    const { locale } = router
+
+
+    const t = locale === 'en' ? en : fr
+
+
+
     return (
         <Fragment>
             <Head>
@@ -20,9 +32,9 @@ const Home: NextPage = () => {
                 <Nav />
 
                 <p className="py-4">
-                    modern fronted webstarter{' '}
+                    {t.intro}
                     <Link href="/about">
-                        <a className="text-blue-500">read more </a>
+                        <a className="text-blue-500"> {t.readmore}</a>
                     </Link>
                 </p>
                 <div>
