@@ -31,4 +31,4 @@ pnpm dev
 
 #### Contribute
 
-Have an idea in mind about this project consider firing an issue or a PR
+If you have an idea for this project, consider firing an issue or a PR. 
