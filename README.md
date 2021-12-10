@@ -8,7 +8,7 @@ Starter for next generation fronted applications
 -   [React query](https://github.com/tannerlinsley/react-query)
 -   [Tailwindcss](https://github.com/tailwindlabs/tailwindcss) for styling
 -   [Cypress](https://www.cypress.io/) for testing
--   [Typescript](https://www.typescriptlang.org/) for writing mentainable code
+-   [Typescript](https://www.typescriptlang.org/) for writing maintainable code
 -   I18n support
 -   Eslint & Prettier for formatting and linting
 
@@ -31,4 +31,4 @@ pnpm dev
 
 #### Contribute
 
-If you have an idea for this project, consider firing an issue or a PR. 
+If you have an idea for this project, consider firing an issue or a PR.
