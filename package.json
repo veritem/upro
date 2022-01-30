@@ -28,7 +28,7 @@
         "@tailwindcss/forms": "^0.4.0",
         "@types/js-cookie": "^3.0.0",
         "@types/node": "16.11.7",
-        "@types/react": "17.0.34",
+        "@types/react": "17.0.38",
         "autoprefixer": "^10.4.0",
         "cypress": "^9.0.0",
         "eslint": "7.32.0",
