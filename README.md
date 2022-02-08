@@ -29,6 +29,6 @@ pnpm dev
 
 -   Rename project name in `package.json`
 
-#### Contribute
+#### Licence
 
-If you have an idea for this project, consider firing an issue or a PR.
+[MIT](./LiCENCE) - Makuza Mugabo Verite &copy; 2021 - Present
