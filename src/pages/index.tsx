@@ -28,7 +28,7 @@ const Home: NextPage = () => {
 
                 <Nav />
 
-                <p className="py-4">
+                <p className="py-4" id="home-desc">
                     {t.intro}
                     <Link href="/about">
                         <a className="text-blue-500"> {t.readmore}</a>
@@ -36,6 +36,7 @@ const Home: NextPage = () => {
                 </p>
                 <div>
                     <button
+                        id="theme-toggle"
                         onClick={() =>
                             setTheme(theme === 'dark' ? 'light' : 'dark')
                         }
