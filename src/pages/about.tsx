@@ -6,7 +6,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { Fragment } from 'react'
-import { GitHub } from 'react-feather'
+import { GitHub, Twitter } from 'react-feather'
 
 const About: NextPage = () => {
     const router = useRouter()
@@ -34,13 +34,21 @@ const About: NextPage = () => {
                     <li>TypeScript</li>
                 </ul>
 
-                <p className="text-center">
+                <div className="flex justify-center gap-4">
                     <Link href="https://github.com/veritem/upro">
                         <a className="text-gray-500">
                             <GitHub />
                         </a>
                     </Link>
-                </p>
+
+                    <Link href="https://twitter.com/veritemm">
+                        <a className="text-gray-500">
+                            <Twitter />
+                        </a>
+                    </Link>
+
+                </div>
+
             </section>
         </Fragment>
     )
