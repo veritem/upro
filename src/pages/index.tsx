@@ -8,7 +8,6 @@ import { useRouter } from 'next/router'
 import { Fragment } from 'react'
 
 const Home: NextPage = () => {
-
     const router = useRouter()
     const { locale } = router
 

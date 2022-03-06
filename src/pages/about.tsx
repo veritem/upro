@@ -46,9 +46,7 @@ const About: NextPage = () => {
                             <Twitter />
                         </a>
                     </Link>
-
                 </div>
-
             </section>
         </Fragment>
     )

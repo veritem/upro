@@ -51,8 +51,6 @@ export default function Nav() {
                     </option>
                 ))}
             </select>
-
-
         </nav>
     )
 }
