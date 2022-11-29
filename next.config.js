@@ -5,7 +5,7 @@ module.exports = {
         locales: ['en', 'fr'],
         defaultLocale: 'en'
     },
-	experimental:{
-		appDir: true
-	}
+    experimental: {
+        appDir: true
+    }
 }

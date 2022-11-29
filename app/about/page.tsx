@@ -6,38 +6,44 @@ import { Fragment } from 'react'
 import { GitHub, Twitter } from 'react-feather'
 
 const About: NextPage = () => {
-	return (
-		<Fragment>
-			<Head>
-				<title>about</title>
-			</Head>
+    return (
+        <Fragment>
+            <Head>
+                <title>about</title>
+            </Head>
 
-			<section className="font-primary text-center grid place-content-center h-screen w-screen">
-				<Nav />
-				{/*<p className="py-2">{t.slogan}</p>*/}
+            <section className="font-primary text-center grid place-content-center h-screen w-screen">
+                <Nav />
+                {/*<p className="py-2">{t.slogan}</p>*/}
 
-				<ul className="text-left py-4 list-decimal px-10">
-					<li>Next.js</li>
-					<li>React query</li>
+                <ul className="text-left py-4 list-decimal px-10">
+                    <li>Next.js</li>
+                    <li>React query</li>
 
-					<li>TailwindCSS</li>
-					<li>Prettier</li>
-					<li>ESLint</li>
-					<li>TypeScript</li>
-				</ul>
+                    <li>TailwindCSS</li>
+                    <li>Prettier</li>
+                    <li>ESLint</li>
+                    <li>TypeScript</li>
+                </ul>
 
-				<div className="flex items-center justify-center gap-4">
-					<Link href="https://github.com/veritem/upro" className="text-gray-500">
-						<GitHub />
-					</Link>
+                <div className="flex items-center justify-center gap-4">
+                    <Link
+                        href="https://github.com/veritem/upro"
+                        className="text-gray-500"
+                    >
+                        <GitHub />
+                    </Link>
 
-					<Link href="https://twitter.com/veritemm" className="text-gray-500">
-						<Twitter />
-					</Link>
-				</div>
-			</section>
-		</Fragment>
-	)
+                    <Link
+                        href="https://twitter.com/veritemm"
+                        className="text-gray-500"
+                    >
+                        <Twitter />
+                    </Link>
+                </div>
+            </section>
+        </Fragment>
+    )
 }
 
 export default About
