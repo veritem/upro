@@ -31,4 +31,4 @@ pnpm dev
 
 #### Licence
 
-[MIT](./LiCENCE) - Makuza Mugabo Verite &copy; 2021 - Present
+[MIT](./LiCENCE) - Verite Mugabo &copy; 2021 - Present
