@@ -1,8 +1,10 @@
+'use client'
+
 import Nav from '@/components/Nav'
 import { NextPage } from 'next'
 import Link from 'next/link'
 import { Fragment } from 'react'
-import { GitHub, Twitter } from 'react-feather'
+import { GitHub, Twitter } from "react-feather"
 
 const About: NextPage = () => {
 	return (
