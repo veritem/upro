@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { Fragment } from 'react'
 import { GitHub, Twitter } from "react-feather"
 
-const About: NextPage = () => {
+export default function Page() {
 	return (
 		<Fragment>
 			<section className="font-primary text-center grid place-content-center h-screen w-screen">
@@ -40,4 +40,3 @@ const About: NextPage = () => {
 	)
 }
 
-export default About
