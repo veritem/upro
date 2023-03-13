@@ -21,7 +21,7 @@
 		"@playwright/test": "^1.30.0",
 		"@tailwindcss/forms": "^0.5.3",
 		"@types/js-cookie": "^3.0.3",
-		"@types/node": "18.14.0",
+		"@types/node": "18.15.1",
 		"@types/react": "18.0.28",
 		"autoprefixer": "^10.4.13",
 		"eslint": "8.34.0",
