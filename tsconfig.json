@@ -4,9 +4,10 @@
 		"lib": [
 			"dom",
 			"dom.iterable",
-			"esnext",
+			"esnext"
 		],
 		"allowJs": true,
+		"checkJs": true,
 		"skipLibCheck": true,
 		"strict": true,
 		"forceConsistentCasingInFileNames": true,
@@ -18,25 +19,22 @@
 		"isolatedModules": true,
 		"jsx": "preserve",
 		"incremental": true,
-		"baseUrl": ".",
-		"paths": {
-			"~/*": [
-				"./app/*"
-			]
-		},
 		"plugins": [
 			{
 				"name": "next"
 			}
 		],
-		"strictNullChecks": true
+		"paths": {
+			"~/*": [
+				"./app/*"
+			]
+		}
 	},
 	"include": [
 		"next-env.d.ts",
-		"**/*.ts",
-		"**/*.tsx",
 		"app",
-		".next/types/**/*.ts"
+		".next/types/**/*.ts",
+		"next.config.mjs"
 	],
 	"exclude": [
 		"node_modules"

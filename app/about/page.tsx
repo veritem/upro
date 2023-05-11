@@ -1,8 +1,6 @@
 'use client'
 
 import Nav from '../Nav'
-import { NextPage } from 'next'
-import Link from 'next/link'
 import { Fragment } from 'react'
 import { GitHub, Twitter } from "react-feather"
 
@@ -22,18 +20,18 @@ export default function Page() {
 				</ul>
 
 				<div className="flex items-center justify-center gap-4">
-					<Link
+					<a
 						href="https://github.com/veritem/upro"
 						className="text-gray-500">
 						<GitHub />
-					</Link>
+					</a>
 
-					<Link
+					<a
 						href="https://twitter.com/veritemm"
 						className="text-gray-500"
 					>
 						<Twitter />
-					</Link>
+					</a>
 				</div>
 			</section>
 		</Fragment>
