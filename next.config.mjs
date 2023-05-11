@@ -1,7 +1,7 @@
 import "./app/env.mjs";
 
 /** @type {import('next').NextConfig} */
-const nextConfig =  {
+export default {
     reactStrictMode: true,
     i18n: {
         locales: ['en', 'fr'],
@@ -14,4 +14,3 @@ const nextConfig =  {
 }
 
 
-export default nextConfig;

@@ -3,10 +3,10 @@ import { z } from "zod";
  
 export const env = createEnv({
   server: {
-    API_KEY: z.string().min(1),
+    API_KEY: z.string().min(1).optional(),
   },
   client: {
-    NEXT_PUBLIC_APP_NAME: z.string(),
+    NEXT_PUBLIC_APP_NAME: z.string().optional(),
   },
   runtimeEnv: {
     API_KEY: process.env.API_KEY,
