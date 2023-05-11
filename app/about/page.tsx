@@ -1,6 +1,6 @@
 'use client'
 
-import Nav from '@/components/Nav'
+import Nav from '../Nav'
 import { NextPage } from 'next'
 import Link from 'next/link'
 import { Fragment } from 'react'

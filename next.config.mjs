@@ -1,11 +1,10 @@
+import "./app/env.mjs";
+
 /** @type {import('next').NextConfig} */
-module.exports = {
+export default {
     reactStrictMode: true,
     i18n: {
         locales: ['en', 'fr'],
         defaultLocale: 'en'
     },
-    experimental: {
-        appDir: true
-    }
 }
